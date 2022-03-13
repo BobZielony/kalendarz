@@ -1,1 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mainBoard{
+  border: 2px black solid;
+  width: 800px;
+  height: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+}
+
+.monthName{
+  
+  border-bottom:2px black solid;
+  font-size: 30px;
+}
+
+.textMonth{
+  text-align: center;
+}
+
+.leftButton{
+  float: left;
+  height: 30px;
+}
+.rightButton{
+  float: right;
+  height: 30px;
+}
