@@ -14,7 +14,7 @@ code {
 
 .mainBoard{
   border: 2px black solid;
-  width: 800px;
+  width: 900px;
   height: 600px;
   margin-left:auto;
   margin-right:auto;
@@ -22,7 +22,6 @@ code {
 }
 
 .monthName{
-  
   border-bottom:2px black solid;
   font-size: 30px;
 }
@@ -35,7 +34,53 @@ code {
   float: left;
   height: 30px;
 }
+
 .rightButton{
   float: right;
   height: 30px;
+}
+
+.yearView{
+  border: 2px black solid;
+  width: 900px;
+  height: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top: 50px;
+}
+
+.yearNumber{
+  border-bottom:2px black solid;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.table{
+  width: 900px;
+  height: 90%;
+  padding-bottom: 45px;
+}
+
+td{
+  width: 25%;
+  height: 33%;
+  border: 1px black solid;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+}
+.tableCellWinter{
+  background-color: #e3e3ff;
+}
+.tableCellSpring{
+  background-color: #5e8d5a;
+}
+.tableCellSummer{
+  background-color: #ffd700;
+}
+.tableCellAutumn{
+  background-color: #f47b20;
 }
